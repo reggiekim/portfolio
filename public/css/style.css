@@ -13,10 +13,6 @@
   position: fixed !important;
 }
 
-h3 {
-  color: blue;
-}
-
 #intro {
   text-align: center;
 }
@@ -29,9 +25,33 @@ h3 {
   text-align: center;
 }
 
+#nav-container {
+  /* background-color: lightskyblue; */
+}
+
+ul {
+  display: inline-block;
+}
+
+.table-of-contents a {
+    padding-left: 0;
+    font-size: 2em;
+}
+
+.table-of-contents a:hover {
+    padding-left: 0;
+    border-left: none;
+    border-bottom: 5px solid lightyellow;
+}
+
+.table-of-contents a.active {
+    border-left: none;
+    border-bottom: 5px solid yellow;
+    padding-left: 0;
+}
 
 #about{
-  height: 600px;
+  height: 500px;
 }
 
 #works{
