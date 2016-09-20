@@ -1,3 +1,18 @@
+/* Class for when element is above threshold */
+.pin-top {
+  position: relative;
+}
+
+/* Class for when element is below threshold */
+.pin-bottom {
+  position: relative;
+}
+
+/* Class for when element is pinned*/
+.pinned {
+  position: fixed !important;
+}
+
 h3 {
   color: blue;
 }
@@ -13,3 +28,16 @@ h3 {
 .contact {
   text-align: center;
 }
+
+
+#about{
+  height: 600px;
+}
+
+#works{
+  height: 900px;
+}
+#contact{
+  height: 400px;
+}
+
