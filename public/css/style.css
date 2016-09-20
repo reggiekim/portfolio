@@ -1,7 +1,15 @@
+h3 {
+  color: blue;
+}
+
 #intro {
   text-align: center;
 }
 
 .stack {
+  text-align: center;
+}
+
+.contact {
   text-align: center;
 }
