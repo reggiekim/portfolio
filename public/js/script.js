@@ -7,7 +7,7 @@
   });
 
   $(document).ready(function(){
-    $('#nav-container').pushpin({ top: $('#nav-container').offset().top });
+    $('#nav-bar').pushpin({ top: $('#nav-bar').offset().top });
   });
 
 

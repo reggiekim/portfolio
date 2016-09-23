@@ -13,9 +13,7 @@
   position: fixed !important;
 }
 
-#intro {
-  text-align: center;
-}
+
 
 .stack {
   text-align: center;
@@ -25,39 +23,45 @@
   text-align: center;
 }
 
-#nav-container {
-  /* background-color: lightskyblue; */
-}
-
-ul {
-  display: inline-block;
-}
-
 .table-of-contents a {
-    padding-left: 0;
-    font-size: 2em;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1.5em;
+  margin-left: 30px;
 }
 
 .table-of-contents a:hover {
-    padding-left: 0;
-    border-left: none;
-    border-bottom: 5px solid lightyellow;
+  padding-left: 0;
+  padding-right: 0;
+  border-left: none;
+  border-bottom: 1px solid #fdd835;
 }
 
 .table-of-contents a.active {
-    border-left: none;
-    border-bottom: 5px solid yellow;
-    padding-left: 0;
+  border-left: none;
+  border-bottom: 4px solid #fdd835;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-#about{
-  height: 500px;
+#intro{
+  height: 450px;
+  background:
+    linear-gradient(
+      rgba(25, 118, 210, 0.9),
+      rgba(25, 118, 210, 0.9)
+    ),
+    url(/img/grass.jpg);
+  background-size: cover;
+}
+
+#skills-container {
+  padding-top: 40px;
 }
 
 #works{
   height: 1400px;
 }
 #contact{
-  height: 400px;
+  height: 300px;
 }
-
