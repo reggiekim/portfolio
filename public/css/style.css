@@ -14,18 +14,10 @@
 }
 
 
-
-.stack {
-  text-align: center;
+.table-of-contents {
+  padding: 0;
 }
 
-.contact {
-  text-align: center;
-}
-
-.section {
-  padding-top: 0;
-}
 .table-of-contents a {
   padding-left: 0;
   padding-right: 0;
@@ -47,11 +39,9 @@
   padding-right: 0;
 }
 
-/* hr {
-  display: block;
-  border-color: #fdd835;
-  height: 5px;
-} */
+#nav-bar {
+  z-index: 2;
+}
 
 #intro{
   height: 450px;
@@ -68,12 +58,19 @@
   padding-top: 50px;
 }
 
-/* #works{
-  height: 1400px;
-} */
+.stack {
+  text-align: center;
+}
 
-
+.btn {
+  margin: 10px;
+}
 
 #contact{
-  height: 300px;
+  height: 325px;
+}
+
+.my-contact {
+  text-align: center;
+  margin-bottom: 20px;
 }
