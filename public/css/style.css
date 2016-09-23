@@ -62,8 +62,13 @@
   text-align: center;
 }
 
+.project {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
 .btn {
-  margin: 10px;
+  margin: 20px 10px;
 }
 
 #contact{
