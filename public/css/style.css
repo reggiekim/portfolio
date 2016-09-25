@@ -79,3 +79,10 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .table-of-contents a {
+    font-size: 1.25em;
+    margin-left: 40px;
+  }
+}
