@@ -28,6 +28,7 @@
 .table-of-contents a:hover {
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 25px;
   border-left: none;
   border-bottom: 1px solid #fdd835;
 }
@@ -37,6 +38,7 @@
   border-bottom: 4px solid #fdd835;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 25px;
 }
 
 #nav-bar {
