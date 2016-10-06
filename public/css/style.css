@@ -30,7 +30,7 @@
   padding-right: 0;
   padding-bottom: 25px;
   border-left: none;
-  border-bottom: 1px solid #fdd835;
+  border-bottom: 2px solid #fdd835;
 }
 
 .table-of-contents a.active {
@@ -39,6 +39,10 @@
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 25px;
+}
+
+nav ul a:hover {
+  background-color: white;
 }
 
 #nav-bar {
